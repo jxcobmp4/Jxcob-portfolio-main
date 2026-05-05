@@ -41,6 +41,7 @@ export default function ClientsSection() {
               >
                 <div className="flex flex-col items-center gap-2 group cursor-default">
                   <div className="relative w-20 h-20 rounded-full overflow-hidden">
+                    xzcxczx
                     <Image
                       src={client.image}
                       alt={client.name}
