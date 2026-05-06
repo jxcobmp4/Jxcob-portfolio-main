@@ -4,27 +4,27 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 const testimonials = [
   {
     text: "Increíble edición, mis videos han mejorado muchísimo. Totalmente recomendado.",
-    handle: "@Cliente 1",
-    followers: "Seguidores",
-    image: "/clients/client-1.jpeg",
+    handle: "@Cabaricosuplementos",
+    followers: "1.9K seguidores",
+    image: "/clients/client-1.jpg",
   },
   {
     text: "Jxcob transforma el contenido en videos que realmente venden. Su creatividad es única.",
-    handle: "@Cliente 2",
-    followers: "Seguidores",
-    image: "/clients/client-2.jpeg",
+    handle: "@Creatorsclubaus",
+    followers: "2.2K seguidores",
+    image: "/clients/cliente 2.jpg",
   },
   {
     text: "Profesional, puntual y con un ojo artístico impresionante. Supera mis expectativas.",
-    handle: "@Cliente 3",
-    followers: "Seguidores",
-    image: "/clients/client-3.jpeg",
+    handle: "@duomillonario",
+    followers: "350 seguidores",
+    image: "/clients/cliente 3.jpg",
   },
   {
     text: "La mejor inversión para mi cuenta. La calidad profesional se nota inmediatamente.",
-    handle: "@Cliente 4",
-    followers: "Seguidores",
-    image: "/clients/client-4.jpeg",
+    handle: "@Matchsportcenter",
+    followers: "4.5K seguidores",
+    image: "/clients/cliente 4.jpg",
   },
 ];
 
@@ -86,14 +86,14 @@ export default function ContactSection() {
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Instagram"
-  className="w-10 h-10 rounded-full bg-white/15 border border-white/20 flex items-center justify-center hover:opacity-75 transition-opacity"
+  className="w-10 h-10 rounded-full bg-black/10 border border-black/20 flex items-center justify-center hover:opacity-75 transition-opacity"
 >
                       <svg
                         width="18"
                         height="18"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="rgb(239,238,234)"
+                        stroke="#171717"
                         strokeWidth="1.8"
                       >
                         <rect x="2" y="2" width="20" height="20" rx="5" />
@@ -102,7 +102,7 @@ export default function ContactSection() {
                           cx="17.5"
                           cy="6.5"
                           r="1"
-                          fill="rgb(239,238,234)"
+                          fill="#171717"
                           stroke="none"
                         />
                       </svg>
@@ -112,13 +112,13 @@ export default function ContactSection() {
   target="_blank"
   rel="noopener noreferrer"
   aria-label="TikTok"
-  className="w-10 h-10 rounded-full bg-white/15 border border-white/20 flex items-center justify-center hover:opacity-75 transition-opacity"
+  className="w-10 h-10 rounded-full bg-black/10 border border-black/20 flex items-center justify-center hover:opacity-75 transition-opacity"
 >
                       <svg
                         width="18"
                         height="18"
                         viewBox="0 0 24 24"
-                        fill="rgb(239,238,234)"
+                        fill="#171717"
                       >
                         <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V9.15a8.19 8.19 0 0 0 4.78 1.52V7.22a4.85 4.85 0 0 1-1.01-.53z" />
                       </svg>
@@ -180,14 +180,14 @@ export default function ContactSection() {
               {/* 2×2 testimonials grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 w-full">
                 {testimonials.map((t, i) => (
-                  <div
+                <div
                     key={i}
-                    className="bg-white rounded-2xl p-5 flex flex-col gap-2.5 text-left"
+                    className="bg-[#f5f5f5] rounded-2xl p-5 flex flex-col gap-2.5 text-left"
                   >
                     <div className="text-[var(--color-accent)] text-sm tracking-[1px]">
                       ★★★★★
                     </div>
-                    <p className="text-[13px] font-medium tracking-[-0.02em] leading-[1.55] text-[var(--color-text-primary)] flex-1">
+                    <p className="text-[13px] font-medium tracking-[-0.02em] leading-[1.55] text-[#171717] flex-1">
                       {t.text}
                     </p>
                     <div className="flex items-center gap-2.5 mt-1.5">
@@ -200,10 +200,10 @@ export default function ContactSection() {
                         />
                       </div>
                       <div className="flex flex-col gap-px">
-                        <span className="text-[12px] font-semibold tracking-[-0.02em] text-[var(--color-text-primary)]">
+                        <span className="text-[12px] font-semibold tracking-[-0.02em] text-[#171717]">
                           {t.handle}
                         </span>
-                        <span className="text-[11px] font-medium text-[var(--color-text-primary)]/45">
+                        <span className="text-[11px] font-medium text-[#171717]/45">
                           {t.followers}
                         </span>
                       </div>

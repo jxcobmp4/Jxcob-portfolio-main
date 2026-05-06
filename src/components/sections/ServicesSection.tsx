@@ -42,15 +42,27 @@ type IconName = keyof typeof ICONS;
 const SERVICES_DATA: { num: string; title: string; desc: string; icons: IconName[] }[] = [
   {
     num: "01",
-    title: "Transformo contenido en videos que venden",
-    desc: "Edición estratégica con hooks potentes, ritmo dinámico y cortes precisos que mantienen a tu audiencia enganchada hasta el final.",
+    title: "Retención optimizada desde el primer segundo",
+    desc: "Cada video se estructura estratégicamente para captar atención inmediata y mantener el interés del espectador hasta el final.",
     icons: ["youtube", "tiktok", "instagram"],
   },
   {
     num: "02",
-    title: "Motion Graphics",
-    desc: "Animaciones, intros, lower thirds y elementos gráficos que elevan la calidad visual de tu contenido y refuerzan tu marca.",
+    title: "Edición de alto nivel",
+    desc: "Aplicación precisa de ritmo, cortes y recursos visuales que elevan la calidad del contenido y lo posicionan por encima del promedio.",
     icons: ["video"],
+  },
+  {
+    num: "03",
+    title: "Optimización estratégica para plataformas",
+    desc: "Adaptación del contenido según el comportamiento de cada red social para maximizar alcance, visibilidad y rendimiento orgánico.",
+    icons: ["youtube", "tiktok"],
+  },
+  {
+    num: "04",
+    title: "Identidad visual consistente y profesional",
+    desc: "Desarrollo de una línea gráfica coherente que fortaleza el reconocimiento de marca y aporta diferenciación en cada publicación.",
+    icons: ["instagram", "tiktok", "video"],
   },
 ];
 
@@ -71,38 +83,21 @@ export default function ServicesSection() {
           }
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-16 md:pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-16 md:pb-20">
           {SERVICES_DATA.map((service, i) => (
-<div
-  key={service.num}
-  className={`relative bg-[var(--color-bg-card)] rounded-[20px] p-5 md:p-9 flex flex-col gap-4 md:min-h-[260px] pb-16 md:pb-16 ${
-    i === 0 ? "md:col-span-2" : "md:col-span-1"
-  }`}
->
+            <div
+              key={service.num}
+              className="relative bg-[var(--color-bg-card)] rounded-[20px] p-5 md:p-9 flex flex-col gap-4 min-h-[260px] pb-16"
+            >
               <span className="text-[13px] font-light tracking-[-0.03em] opacity-45">
                 {service.num}
               </span>
-              <h3 className="text-[clamp(22px,2.8vw,40px)] font-bold tracking-[-0.05em] leading-none">
+              <h3 className="text-[clamp(22px,2.8vw,40px)] font-bold tracking-[-0.05em] leading-none text-[var(--color-accent)]">
                 {service.title}
               </h3>
               <p className="text-[14px] md:text-[15px] font-light tracking-[-0.03em] leading-[1.5] opacity-70 flex-1">
                 {service.desc}
               </p>
-
-              {/* Icons — pinned to bottom-right corner */}
-<div className="absolute bottom-4 right-4 flex items-center -space-x-2">
-  {service.icons.map((name) => {
-    const Icon = ICONS[name];
-    return (
-      <div
-        key={name}
-        className="w-9 h-9 rounded-full bg-[#222222] border-[3px] border-[#333333] shadow-[inset_0_4px_4px_rgba(0,0,0,0.3)] flex items-center justify-center text-[var(--color-text-primary)] opacity-60"
-      >
-        <Icon />
-      </div>
-    );
-  })}
-</div>
             </div>
           ))}
         </div>

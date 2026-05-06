@@ -18,10 +18,10 @@ export const HERO = {
     rating: 5,
     label: " 20+ clientes",
     clientAvatars: [
-      "/clients/client-1.jpeg",
-      "/clients/client-2.jpeg",
-      "/clients/client-3.jpeg",
-      "/clients/client-4.jpeg",
+      "/clients/client-1.jpg",
+      "/clients/cliente 2.jpg",
+      "/clients/cliente 3.jpg",
+      "/clients/cliente 4.jpg",
     ],
   },
 };
@@ -43,48 +43,48 @@ export const ABOUT = {
 export const VIDEOS = [
   {
     id: 1,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-1.mp4",
-    title: "PVC Del Norte",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Anecdota%201.mp4",
+    title: "Anecdota 1",
   },
   {
     id: 2,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-2.mp4",
-    title: "PVC Del Norte - 2",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Anecdota%202%20.mp4",
+    title: "Anecdota 2",
   },
   {
     id: 3,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-3.mp4",
-    title: "Mike Celis Real",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Cabarico-top%203.mp4",
+    title: "Cabarico Top 3",
   },
   {
     id: 4,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-4.mp4",
-    title: "Colmisan Ccuta",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final-DuoMillonario.mp4",
+    title: "Final Duo Millonario",
   },
   {
     id: 5,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-5.mp4",
-    title: "Instagram Reel",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Errores.mp4",
+    title: "Errores",
   },
   {
     id: 6,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-6.mp4",
-    title: "Video 6",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final%202.mp4",
+    title: "Final 2",
   },
   {
     id: 7,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-7.mp4",
-    title: "Video 7",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final%20Match%20Vertical.mp4",
+    title: "Final Match Vertical",
   },
   {
     id: 8,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-8.mp4",
-    title: "Video 8",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final.mp4",
+    title: "Final",
   },
   {
     id: 9,
-    src: "https://aunjgbdzxpzeliulefch.supabase.co/storage/v1/object/public/portafolio_editor/video-9.mp4",
-    title: "Video 9",
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Preguntas%20y%20respuestas.mp4",
+    title: "Preguntas y respuestas",
   },
 ];
 
