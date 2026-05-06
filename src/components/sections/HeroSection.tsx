@@ -68,22 +68,22 @@ export default function HeroSection() {
 
         {/* HEADLINE */}
         <h1
-          className="text-[36px] sm:text-[48px] lg:text-[64px] font-bold tracking-[-0.05em] leading-[1.09]"
+          className="text-[36px] sm:text-[48px] lg:text-[64px] font-bold tracking-[-0.05em] leading-[1.2] text-center"
           style={{
             opacity: 0,
             animation: "fade-in-up 0.7s ease-out 0.2s forwards",
           }}
         >
           <span className="block">{HERO.titleLine1}</span>
-<span className="block">
-  <span className="text-[var(--color-accent)] font-extrabold">Creadores</span> de
-  contenido
-</span>
+          <span className="block">
+            <span className="text-[var(--color-accent)] font-extrabold">potencial</span>. Yo lo convierto en{" "}
+            <span className="text-[var(--color-accent)] font-extrabold">resultados</span>
+          </span>
         </h1>
 
-        {/* SUBTITLE */}
+        {/* DESCRIPTION */}
         <p
-          className="mt-4 md:mt-6 text-[15px] md:text-[19px] lg:text-[24px] font-light text-[var(--color-text-primary)] leading-[1.4] tracking-[-0.03em] mx-auto"
+          className="mt-4 md:mt-6 text-[15px] md:text-[17px] font-light text-[var(--color-text-secondary)] leading-[1.6] max-w-[600px] mx-auto text-center"
           style={{
             opacity: 0,
             animation: "fade-in-up 0.7s ease-out 0.4s forwards",

@@ -66,7 +66,7 @@ export default function ServicesSection() {
   Lo que puedo
   <br />
   hacer por{" "}
-  <span className="text-[var(--color-accent)] font-extrabold">Usted</span>
+  <span className="text-[var(--color-accent)] font-extrabold">tu marca</span>
 </h2>
           }
         />

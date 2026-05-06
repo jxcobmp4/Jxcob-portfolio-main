@@ -7,10 +7,10 @@ export const NAV_LINKS = [
 
 export const HERO = {
   badge: "Disponible para trabajar",
-  titleLine1: "Editor de video para",
-  titleLine2: "creadores de contenido",
+  titleLine1: "Tu contenido tiene",
+  titleLine2: "potencial. Yo lo convierto en resultados",
   description:
-    "Transformo contenido en videos que venden. Ediciones dinámicas y atractivas que mantienen a los espectadores enganchados.",
+    "Transformo tus ideas en videos que conectan con tu audiencia y generan resultados. Desde la estructura hasta los detalles visuales, todo está pensado para que tu contenido destaque y no pase desapercibido.",
   ctaText: "Ver mi trabajo",
   ctaHref: "#about",
   socialProof: {
@@ -155,14 +155,10 @@ export const SERVICES = {
 export const CLIENTS = {
   tagline: "Creadores que confían en mi trabajo",
   items: [
-    { id: 1, name: "@Cliente 1", followers: "Seguidores", image: "/clients/client-1.jpeg" },
-    { id: 2, name: "@Cliente 2", followers: "Seguidores", image: "/clients/client-2.jpeg" },
-    { id: 3, name: "@Cliente 3", followers: "Seguidores", image: "/clients/client-3.jpeg" },
-    { id: 4, name: "@Cliente 4", followers: "Seguidores", image: "/clients/client-4.jpeg" },
-    { id: 5, name: "@Cliente 5", followers: "Seguidores", image: "/clients/client-5.jpeg" },
-    { id: 6, name: "@Cliente 6", followers: "Seguidores", image: "/clients/client-6.jpeg" },
-    { id: 7, name: "@Cliente 7", followers: "Seguidores", image: "/clients/client-7.jpeg" },
-    { id: 8, name: "@Cliente 8", followers: "Seguidores", image: "/clients/client-8.jpeg" },
+    { id: 1, name: "@Cabaricosuplementos", followers: "1.9K seguidores", image: "/clients/client-1.jpg" },
+    { id: 2, name: "@Creatorsclubaus", followers: "2.2K seguidores", image: "/clients/cliente 2.jpg" },
+    { id: 3, name: "@Duomillonario", followers: "350 seguidores", image: "/clients/cliente 3.jpg" },
+    { id: 4, name: "@Matchsportcenter", followers: "4.5K seguidores", image: "/clients/cliente 4.jpg" },
   ],
 };
 
@@ -193,3 +189,9 @@ export const SITE = {
   email: "Dopjacob@gmail.com",
   ogImage: "/og-image.png",
 };
+
+export const SKILLS = [
+  { name: "Video Editing", level: 90 },
+  { name: "Motion Graphics", level: 85 },
+  { name: "Content Strategy", level: 80 },
+];
