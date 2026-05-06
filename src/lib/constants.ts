@@ -18,7 +18,7 @@ export const HERO = {
     rating: 5,
     label: " 20+ clientes",
     clientAvatars: [
-      "/clients/client-1.jpg",
+      "/clients/cliente-1.jpg",
       "/clients/cliente 2.jpg",
       "/clients/cliente 3.jpg",
       "/clients/cliente 4.jpg",

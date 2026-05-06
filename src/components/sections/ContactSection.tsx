@@ -132,7 +132,7 @@ export default function ContactSection() {
                     Contactame por:
                   </span>
 <a
-  href="https://wa.me/573026909486"
+  href="https://wa.me/573008352252"
   target="_blank"
   rel="noopener noreferrer"
   className="self-start inline-flex items-center gap-4 lg:gap-6 px-2.5 pl-6 lg:pl-8 py-2.5 text-sm font-medium text-white bg-[var(--color-accent)] rounded-full hover:bg-[#d67607] transition-colors"
