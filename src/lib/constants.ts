@@ -136,9 +136,9 @@ export const CLIENTS = {
   tagline: "Creadores que confían en mi trabajo",
   items: [
     { id: 1, name: "@Cabaricosuplementos", followers: "1.9K seguidores", image: "/clients/client-1.jpg" },
-    { id: 2, name: "@Creatorsclubaus", followers: "2.2K seguidores", image: "/clients/cliente 2.jpg" },
-    { id: 3, name: "@Duomillonario", followers: "350 seguidores", image: "/clients/cliente 3.jpg" },
-    { id: 4, name: "@Matchsportcenter", followers: "4.5K seguidores", image: "/clients/cliente 4.jpg" },
+    { id: 2, name: "@Creatorsclubaus", followers: "2.2K seguidores", image: "/clients/cliente-2.jpg" },
+    { id: 3, name: "@Duomillonario", followers: "350 seguidores", image: "/clients/cliente-3.jpg" },
+    { id: 4, name: "@Matchsportcenter", followers: "4.5K seguidores", image: "/clients/cliente-4.jpg" },
   ],
 };
 
