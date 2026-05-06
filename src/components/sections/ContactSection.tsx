@@ -6,25 +6,25 @@ const testimonials = [
     text: "Increíble edición, mis videos han mejorado muchísimo. Totalmente recomendado.",
     handle: "@Cabaricosuplementos",
     followers: "1.9K seguidores",
-    image: "/clients/client-1.jpg",
+    image: "/clients/cliente-1.jpg",
   },
   {
     text: "Jxcob transforma el contenido en videos que realmente venden. Su creatividad es única.",
     handle: "@Creatorsclubaus",
     followers: "2.2K seguidores",
-    image: "/clients/cliente 2.jpg",
+    image: "/clients/cliente-2.jpg",
   },
   {
     text: "Profesional, puntual y con un ojo artístico impresionante. Supera mis expectativas.",
     handle: "@duomillonario",
     followers: "350 seguidores",
-    image: "/clients/cliente 3.jpg",
+    image: "/clients/cliente-3.jpg",
   },
   {
     text: "La mejor inversión para mi cuenta. La calidad profesional se nota inmediatamente.",
     handle: "@Matchsportcenter",
     followers: "4.5K seguidores",
-    image: "/clients/cliente 4.jpg",
+    image: "/clients/cliente-4.jpg",
   },
 ];
 
