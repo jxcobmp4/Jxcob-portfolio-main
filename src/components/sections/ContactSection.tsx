@@ -42,8 +42,8 @@ export default function ContactSection() {
         <div className="relative z-10">
           {/* Section header row */}
           <div className="flex justify-between items-center pt-10 md:pt-[60px] pb-8 md:pb-14">
-            <p className="text-[15px] md:text-[18px] font-extralight tracking-[-0.03em] flex items-center gap-3 text-[var(--color-bg)]">
-              <span className="border-t w-8 md:w-10 inline-block pl-3 border-[var(--color-bg)]/40" />
+            <p className="text-[15px] md:text-[18px] font-extralight tracking-[-0.03em] flex items-center gap-3 text-[var(--color-text-primary)]">
+              <span className="border-t w-8 md:w-10 inline-block pl-3 border-[var(--color-text-primary)]/40" />
               Contacto
             </p>
             <span className="text-[15px] md:text-[18px] font-extralight tracking-[-0.03em] opacity-70 text-[var(--color-bg)]">

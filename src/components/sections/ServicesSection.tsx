@@ -72,7 +72,7 @@ export default function ServicesSection() {
       <section id="services" className="px-6 md:px-12 lg:px-64">
         <SectionIntro
           label="Servicios"
-          number="(02)"
+          number=""
           heading={
 <h2 className="text-[36px] sm:text-[48px] lg:text-[64px] font-bold tracking-[-0.05em] leading-none max-w-[560px]">
   Lo que puedo

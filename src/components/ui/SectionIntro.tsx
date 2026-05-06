@@ -19,6 +19,7 @@ export default function SectionIntro({
 }: SectionIntroProps) {
   const textColor = dark ? "text-[var(--color-bg)]" : "text-[var(--color-text-primary)]";
   const lineColor = dark ? "border-[var(--color-bg)]/40" : "border-[--color-text-primary]";
+  const numberColor = dark ? "text-[var(--color-bg)]" : "text-[var(--color-bg)]";
   const subtitleColor = dark ? "text-[var(--color-bg)]/60" : "text-[var(--color-text-primary)]";
 
   return (
@@ -29,7 +30,7 @@ export default function SectionIntro({
           <span className={`border-t w-8 md:w-10 inline-block pl-3 ${lineColor}`} />
           {label}
         </p>
-        <span className={`text-[15px] md:text-[18px] font-extralight tracking-[-0.03em] opacity-70 ${textColor}`}>
+        <span className={`text-[15px] md:text-[18px] font-extralight tracking-[-0.03em] opacity-70 ${numberColor}`}>
           {number}
         </span>
       </div>
