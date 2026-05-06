@@ -19,9 +19,9 @@ export const HERO = {
     label: " 20+ clientes",
     clientAvatars: [
       "/clients/cliente-1.jpg",
-      "/clients/cliente 2.jpg",
-      "/clients/cliente 3.jpg",
-      "/clients/cliente 4.jpg",
+      "/clients/cliente-2.jpg",
+      "/clients/cliente-3.jpg",
+      "/clients/cliente-4.jpg",
     ],
   },
 };
@@ -65,27 +65,7 @@ export const VIDEOS = [
     id: 5,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Errores.mp4",
     title: "Errores",
-  },
-  {
-    id: 6,
-    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final%202.mp4",
-    title: "Final 2",
-  },
-  {
-    id: 7,
-    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final%20Match%20Vertical.mp4",
-    title: "Final Match Vertical",
-  },
-  {
-    id: 8,
-    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final.mp4",
-    title: "Final",
-  },
-  {
-    id: 9,
-    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Preguntas%20y%20respuestas.mp4",
-    title: "Preguntas y respuestas",
-  },
+  }
 ];
 
 export const PORTFOLIO = {
