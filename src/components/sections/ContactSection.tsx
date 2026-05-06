@@ -18,13 +18,13 @@ const testimonials = [
     text: "Profesional, puntual y con un ojo artístico impresionante. Supera mis expectativas.",
     handle: "@duomillonario",
     followers: "350 seguidores",
-    image: "/clients/cliente-3.jpg",
+    image: "/clients/cliente-4.jpg",
   },
   {
     text: "La mejor inversión para mi cuenta. La calidad profesional se nota inmediatamente.",
     handle: "@Matchsportcenter",
     followers: "4.5K seguidores",
-    image: "/clients/cliente-4.jpg",
+    image: "/clients/cliente-3.jpg",
   },
 ];
 
@@ -132,7 +132,7 @@ export default function ContactSection() {
                     Contactame por:
                   </span>
 <a
-  href="https://wa.me/573008352252"
+  href="https://wa.me/573008352282"
   target="_blank"
   rel="noopener noreferrer"
   className="self-start inline-flex items-center gap-4 lg:gap-6 px-2.5 pl-6 lg:pl-8 py-2.5 text-sm font-medium text-white bg-[var(--color-accent)] rounded-full hover:bg-[#d67607] transition-colors"
