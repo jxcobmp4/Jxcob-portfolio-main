@@ -43,26 +43,31 @@ export const ABOUT = {
 export const VIDEOS = [
   {
     id: 1,
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/V2.mp4",
+    title: "V2",
+  },
+  {
+    id: 2,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Anecdota%201.mp4",
     title: "Anecdota 1",
   },
   {
-    id: 2,
+    id: 3,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Anecdota%202%20.mp4",
     title: "Anecdota 2",
   },
   {
-    id: 3,
+    id: 4,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Cabarico-top%203.mp4",
     title: "Cabarico Top 3",
   },
   {
-    id: 4,
+    id: 5,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final-DuoMillonario.mp4",
     title: "Final Duo Millonario",
   },
   {
-    id: 5,
+    id: 6,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Errores.mp4",
     title: "Errores",
   }
