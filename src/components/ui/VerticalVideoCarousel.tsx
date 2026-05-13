@@ -7,6 +7,7 @@ import VideoCard from "@/components/ui/VideoCard";
 interface Video {
   id: number;
   src: string;
+  poster: string;
   title: string;
 }
 

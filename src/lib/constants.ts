@@ -44,36 +44,43 @@ export const VIDEOS = [
   {
     id: 1,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/V1%20DrP%20(1).mp4",
+    poster: "/Images/1.jpg",
     title: "V1 DrP",
   },
   {
     id: 2,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/V2.mp4",
+    poster: "/Images/2.jpg",
     title: "V2",
   },
   {
     id: 6,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final-DuoMillonario.mp4",
+    poster: "/Images/6.jpg",
     title: "Final Duo Millonario",
   },
   {
     id: 5,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Cabarico-top%203.mp4",
+    poster: "/Images/5.jpg",
     title: "Cabarico Top 3",
   },
   {
     id: 3,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Anecdota%201.mp4",
+    poster: "/Images/3.jpg",
     title: "Anecdota 1",
   },
   {
     id: 4,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Anecdota%202%20.mp4",
+    poster: "/Images/4.jpg",
     title: "Anecdota 2",
   },
   {
     id: 7,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Errores.mp4",
+    poster: "/Images/7.jpg",
     title: "Errores",
   }
 ];
