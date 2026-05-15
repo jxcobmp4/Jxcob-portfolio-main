@@ -19,7 +19,7 @@ export default function VideoCard({ video }: VideoCardProps) {
 
   useEffect(() => {
     if (videoRef.current) {
-      registerVideo(video.id, videoRef.current);
+      registerVideo(video.id, videoRef.current, () => setShowPoster(true));
     }
     return () => unregisterVideo(video.id);
   }, [video.id, registerVideo, unregisterVideo]);
