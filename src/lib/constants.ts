@@ -54,6 +54,12 @@ export const VIDEOS = [
     title: "V2",
   },
   {
+    id: 8,
+    src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/reto_fitness_v01%20(1).mp4",
+    poster: "/Images/8.jpg",
+    title: "Reto Fitness",
+  },
+  {
     id: 6,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final-DuoMillonario.mp4",
     poster: "/Images/6.jpg",
