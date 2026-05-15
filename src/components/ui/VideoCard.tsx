@@ -1,6 +1,6 @@
 ﻿"use client";
 
-import { useRef, useState, useCallback, useEffect } from "react";
+import { useRef, useCallback, useEffect } from "react";
 import { useVideoPlayer } from "@/contexts/VideoPlayerContext";
 
 interface VideoCardProps {
@@ -14,29 +14,28 @@ interface VideoCardProps {
 
 export default function VideoCard({ video }: VideoCardProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [showPoster, setShowPoster] = useState(true);
-  const { registerVideo, unregisterVideo, playVideo } = useVideoPlayer();
+  const { registerVideo, unregisterVideo, playVideo, videoEnded, currentlyPlaying } = useVideoPlayer();
+  const isPlaying = currentlyPlaying === video.id;
 
   useEffect(() => {
     if (videoRef.current) {
-      registerVideo(video.id, videoRef.current, () => setShowPoster(true));
+      registerVideo(video.id, videoRef.current);
     }
     return () => unregisterVideo(video.id);
   }, [video.id, registerVideo, unregisterVideo]);
 
   const handlePlay = useCallback(() => {
-    if (!videoRef.current || !showPoster) return;
+    if (!videoRef.current) return;
     playVideo(video.id);
-    setShowPoster(false);
     videoRef.current.play();
-  }, [showPoster, playVideo, video.id]);
+  }, [playVideo, video.id]);
 
   const handleEnded = useCallback(() => {
-    setShowPoster(true);
+    videoEnded(video.id);
     if (videoRef.current) {
       videoRef.current.currentTime = 0;
     }
-  }, []);
+  }, [video.id, videoEnded]);
 
   return (
     <div className="relative aspect-[9/16] rounded-xl overflow-hidden bg-[var(--color-bg)] border border-[var(--color-border)] flex-1">
@@ -50,7 +49,7 @@ export default function VideoCard({ video }: VideoCardProps) {
         onEnded={handleEnded}
       />
 
-      {showPoster && (
+      {!isPlaying && (
         <button
           onClick={handlePlay}
           className="absolute inset-0 bg-black/50 flex items-center justify-center z-10 transition-opacity duration-300 cursor-pointer"
