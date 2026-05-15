@@ -1,8 +1,9 @@
-"use client";
+﻿"use client";
 
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback } from "react";
 import VideoCard from "@/components/ui/VideoCard";
+import { VideoPlayerProvider } from "@/contexts/VideoPlayerContext";
 
 interface Video {
   id: number;
@@ -21,8 +22,9 @@ export default function VerticalVideoCarousel({ videos }: { videos: Video[] }) {
     <div className="w-full px-4">
       {/* Viewport */}
       <div className="overflow-hidden" ref={emblaRef}>
-        {/* Track — negative left margin offsets the per-slide left padding */}
+        {/* Track â€” negative left margin offsets the per-slide left padding */}
         <div className="flex -ml-3">
+          <VideoPlayerProvider>
           {videos.map((video) => (
             <div
               key={video.id}
@@ -31,6 +33,7 @@ export default function VerticalVideoCarousel({ videos }: { videos: Video[] }) {
               <VideoCard video={video} />
             </div>
           ))}
+        </VideoPlayerProvider>
         </div>
       </div>
 
@@ -76,3 +79,4 @@ export default function VerticalVideoCarousel({ videos }: { videos: Video[] }) {
     </div>
   );
 }
+

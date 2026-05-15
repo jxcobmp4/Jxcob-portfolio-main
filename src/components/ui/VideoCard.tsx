@@ -1,6 +1,7 @@
-"use client";
+﻿"use client";
 
-import { useRef, useState, useCallback } from "react";
+import { useRef, useState, useCallback, useEffect } from "react";
+import { useVideoPlayer } from "@/contexts/VideoPlayerContext";
 
 interface VideoCardProps {
   video: {
@@ -14,12 +15,21 @@ interface VideoCardProps {
 export default function VideoCard({ video }: VideoCardProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [showPoster, setShowPoster] = useState(true);
+  const { registerVideo, unregisterVideo, playVideo } = useVideoPlayer();
+
+  useEffect(() => {
+    if (videoRef.current) {
+      registerVideo(video.id, videoRef.current);
+    }
+    return () => unregisterVideo(video.id);
+  }, [video.id, registerVideo, unregisterVideo]);
 
   const handlePlay = useCallback(() => {
     if (!videoRef.current || !showPoster) return;
+    playVideo(video.id);
     setShowPoster(false);
     videoRef.current.play();
-  }, [showPoster]);
+  }, [showPoster, playVideo, video.id]);
 
   const handleEnded = useCallback(() => {
     setShowPoster(true);
