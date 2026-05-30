@@ -65,7 +65,7 @@ export default function VideoCard({ video }: VideoCardProps) {
           aria-label="Reproducir video"
         >
           <img
-            src="/play-button.png"
+            src="/play-button2.png"
             alt="Reproducir"
             className="w-14 h-14 drop-shadow-lg"
           />
