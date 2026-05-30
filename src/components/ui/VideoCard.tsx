@@ -1,6 +1,6 @@
 ﻿"use client";
 
-import { useRef, useCallback, useEffect } from "react";
+import { useRef, useCallback, useEffect, useState } from "react";
 import { useVideoPlayer } from "@/contexts/VideoPlayerContext";
 
 interface VideoCardProps {
@@ -16,6 +16,7 @@ export default function VideoCard({ video }: VideoCardProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const { registerVideo, unregisterVideo, playVideo, videoEnded, currentlyPlaying } = useVideoPlayer();
   const isPlaying = currentlyPlaying === video.id;
+  const [posterError, setPosterError] = useState(false);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -39,14 +40,22 @@ export default function VideoCard({ video }: VideoCardProps) {
 
   return (
     <div className="relative aspect-[9/16] rounded-xl overflow-hidden bg-[var(--color-bg)] border border-[var(--color-border)] flex-1">
+      {posterError && !isPlaying && (
+        <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center">
+          <svg className="w-12 h-12 text-white/40" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </div>
+      )}
       <video
         ref={videoRef}
         src={video.src}
-        poster={video.poster}
+        poster={posterError ? undefined : video.poster}
         className="absolute inset-0 w-full h-full object-cover"
         playsInline
         preload="metadata"
         onEnded={handleEnded}
+        onError={() => setPosterError(true)}
       />
 
       {!isPlaying && (
