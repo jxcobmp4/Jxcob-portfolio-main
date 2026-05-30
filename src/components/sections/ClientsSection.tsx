@@ -63,9 +63,9 @@ export default function ClientsSection() {
               {CLIENTS.items.map((client) => (
                 <div
                   key={client.id}
-                  className="flex-[0_0_50%] min-w-0 px-3"
+                  className="flex-[0_0_50%] min-w-0 px-2"
                 >
-                  <div className="flex flex-col items-center gap-2">
+                  <div className="flex flex-col items-center gap-1">
                     <div className="relative w-20 h-20 rounded-full overflow-hidden">                
                       <Image
                         src={client.image}
