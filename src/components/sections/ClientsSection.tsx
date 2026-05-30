@@ -63,9 +63,9 @@ export default function ClientsSection() {
               {CLIENTS.items.map((client) => (
                 <div
                   key={client.id}
-                  className="flex-[0_0_50%] min-w-0 px-2"
+                  className="flex-[0_0_50%] min-w-0 px-3"
                 >
-                  <div className="flex flex-col items-center gap-1">
+                  <div className="flex flex-col items-center gap-2">
                     <div className="relative w-20 h-20 rounded-full overflow-hidden">                
                       <Image
                         src={client.image}
@@ -74,10 +74,10 @@ export default function ClientsSection() {
                         className="object-cover"
                       />
                     </div>
-                    <p className="text-[13px] font-medium tracking-[-0.03em] text-[var(--color-text-primary)]">
+                    <p className="text-[11px] md:text-[13px] font-medium tracking-[-0.03em] text-[var(--color-text-primary)]">
                       {client.name}
                     </p>
-                    <p className="text-[11px] font-light tracking-[-0.01em] text-[var(--color-text-secondary)] opacity-70">
+                    <p className="text-[10px] md:text-[11px] font-light tracking-[-0.01em] text-[var(--color-text-secondary)] opacity-70">
                       {client.followers}
                     </p>
                   </div>
