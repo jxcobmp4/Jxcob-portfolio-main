@@ -18,7 +18,7 @@ export default function Button({
 
   const variants = {
     primary:
-      "bg-[var(--color-accent)] text-[var(--color-bg-card)] hover:bg-[#B80D30] hover:scale-105",
+      "bg-[var(--color-accent)] text-[var(--color-bg-card)] hover:bg-[#6D28D9] hover:scale-105",
     outline:
       "border border-[var(--color-border)] text-[var(--color-text-primary)] hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]",
   };

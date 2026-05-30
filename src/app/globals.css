@@ -5,7 +5,7 @@
   --color-bg: #000000;
   --color-bg-card: #111111;
   --color-border: #333333;
-  --color-accent: #f38708;
+  --color-accent: #7C3AED;
   --color-text-primary: #ffffff;
   --color-text-secondary: #cccccc;
   --font-sans: "Montserrat", sans-serif;
@@ -48,11 +48,11 @@ body {
 
 /* Glow button */
 .btn-glow {
-  box-shadow: 0 0 20px var(--color-accent), 0 0 40px var(--color-accent), 0 0 60px rgba(243, 135, 8, 0.5), 0 0 80px rgba(243, 135, 8, 0.3);
+  box-shadow: 0 0 20px var(--color-accent), 0 0 40px var(--color-accent), 0 0 60px rgba(124, 58, 237, 0.5), 0 0 80px rgba(124, 58, 237, 0.3);
   transition: all 0.3s ease;
 }
 
 .btn-glow:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px var(--color-accent), 0 0 50px var(--color-accent), 0 0 70px rgba(243, 135, 8, 0.7), 0 0 100px rgba(243, 135, 8, 0.4);
+  box-shadow: 0 0 30px var(--color-accent), 0 0 50px var(--color-accent), 0 0 70px rgba(124, 58, 237, 0.7), 0 0 100px rgba(124, 58, 237, 0.4);
 }

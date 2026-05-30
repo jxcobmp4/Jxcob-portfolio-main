@@ -102,10 +102,10 @@ export default function HeroSection() {
         >
 <a
   href="#contact"
-  className="inline-flex items-center gap-4 lg:gap-6 px-2.5 pl-6 lg:pl-8 py-2.5 text-sm font-medium text-[#ffffff] bg-[var(--color-accent)] rounded-full hover:bg-[#d67607] transition-colors btn-glow"
+  className="inline-flex items-center gap-4 lg:gap-6 px-2.5 pl-6 lg:pl-8 py-2.5 text-sm font-medium text-[#ffffff] bg-[var(--color-accent)] rounded-full hover:bg-[#6D28D9] transition-colors btn-glow"
 >
   Trabaja conmigo
-  <span className="inline-flex items-center justify-center w-9 h-9 lg:w-10 lg:h-10 bg-[#d67607] rounded-full">
+  <span className="inline-flex items-center justify-center w-9 h-9 lg:w-10 lg:h-10 bg-[#6D28D9] rounded-full">
     <svg
       className="w-4 h-4 -rotate-[35deg]"
       viewBox="0 0 24 24"
