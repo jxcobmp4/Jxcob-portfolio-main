@@ -36,6 +36,7 @@ export function VideoPlayerProvider({ children }: { children: ReactNode }) {
       if (prevVideo) {
         prevVideo.pause();
         prevVideo.currentTime = 0;
+        prevVideo.load();
       }
     }
     playingIdRef.current = id;

@@ -56,13 +56,13 @@ export const VIDEOS = [
   {
     id: 8,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/reto_fitness_v01%20(1).mp4",
-    poster: "/Images/8.jpg",
+    poster: "/Images/3.jpg",
     title: "Reto Fitness",
   },
   {
     id: 6,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Final-DuoMillonario.mp4",
-    poster: "/Images/6.jpg",
+    poster: "/Images/4.jpg",
     title: "Final Duo Millonario",
   },
   {
@@ -74,19 +74,19 @@ export const VIDEOS = [
   {
     id: 3,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Anecdota%201.mp4",
-    poster: "/Images/3.jpg",
+    poster: "/Images/6.jpg",
     title: "Anecdota 1",
   },
   {
     id: 4,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Anecdota%202%20.mp4",
-    poster: "/Images/4.jpg",
+    poster: "/Images/7.jpg",
     title: "Anecdota 2",
   },
   {
     id: 7,
     src: "https://hecmqwtjkouwedvbpipn.supabase.co/storage/v1/object/public/Jxcob-%20Portafolio/Errores.mp4",
-    poster: "/Images/7.jpg",
+    poster: "/Images/8.jpg",
     title: "Errores",
   }
 ];
