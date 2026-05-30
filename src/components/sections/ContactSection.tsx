@@ -26,6 +26,12 @@ const testimonials = [
     followers: "4.5K seguidores",
     image: "/clients/cliente-3.jpg",
   },
+  {
+    text: "Excelente trabajo. Muy responsable, cumple con los tiempos de entrega y mantiene una comunicación clara y efectiva durante todo el proceso. Además de ser muy creativo, se toma el tiempo de entender y respetar la identidad de la marca, logrando resultados alineados con la visión del proyecto. Sin duda, una excelente experiencia de trabajo. 100% recomendado.",
+    handle: "@drpedritot",
+    followers: "511K seguidores",
+    image: "/clients/cliente-5.jpg",
+  },
 ];
 
 export default function ContactSection() {
