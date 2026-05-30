@@ -64,15 +64,11 @@ export default function VideoCard({ video }: VideoCardProps) {
           className="absolute inset-0 bg-black/50 flex items-center justify-center z-10 transition-opacity duration-300 cursor-pointer"
           aria-label="Reproducir video"
         >
-          <div className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow-lg">
-            <svg
-              className="w-6 h-6 text-[var(--color-text-primary)] ml-1"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </div>
+          <img
+            src="/play-button.png"
+            alt="Reproducir"
+            className="w-14 h-14 drop-shadow-lg"
+          />
         </button>
       )}
     </div>
