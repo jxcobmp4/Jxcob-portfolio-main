@@ -22,6 +22,7 @@ export const HERO = {
       "/clients/cliente-2.jpg",
       "/clients/cliente-3.jpg",
       "/clients/cliente-4.jpg",
+      "/clients/cliente-5.jpg",
     ],
   },
 };
